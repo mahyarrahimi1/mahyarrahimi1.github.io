@@ -1,23 +1,25 @@
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <url><loc>https://mahyarrahimi1.github.io/</loc></url>
-  <url><loc>https://mahyarrahimi1.github.io/ali-zandvakili.html</loc></url>
-  <url><loc>https://mahyarrahimi1.github.io/rouzbeh-nematollahi.html</loc></url>
-  <url><loc>https://mahyarrahimi1.github.io/helen.html</loc></url>
-  <url><loc>https://mahyarrahimi1.github.io/mansour.html</loc></url>
-  <url><loc>https://mahyarrahimi1.github.io/ragheb.html</loc></url>
-  <url><loc>https://mahyarrahimi1.github.io/reza-yazdani.html</loc></url>
-  <url><loc>https://mahyarrahimi1.github.io/rastaak.html</loc></url>
-  <url><loc>https://mahyarrahimi1.github.io/sina-sarlak.html</loc></url>
-  <url><loc>https://mahyarrahimi1.github.io/kamran-tafti.html</loc></url>
-  <url><loc>https://mahyarrahimi1.github.io/mehdi-yaghmaei.html</loc></url>
-  <url><loc>https://mahyarrahimi1.github.io/mostafa-abedini.html</loc></url>
-  <url><loc>https://mahyarrahimi1.github.io/dj-maryam.html</loc></url>
-  <url><loc>https://mahyarrahimi1.github.io/mahan-bahram-khan.html</loc></url>
+  <url><loc>https://mahyarrahimi.com/</loc></url>
+  <url><loc>https://mahyarrahimi.com/ali-zandvakili.html</loc></url>
+  <url><loc>https://mahyarrahimi.com/rouzbeh-nematollahi.html</loc></url>
+  <url><loc>https://mahyarrahimi.com/helen.html</loc></url>
+  <url><loc>https://mahyarrahimi.com/mansour.html</loc></url>
+  <url><loc>https://mahyarrahimi.com/ragheb.html</loc></url>
+  <url><loc>https://mahyarrahimi.com/reza-yazdani.html</loc></url>
+  <url><loc>https://mahyarrahimi.com/rastaak.html</loc></url>
+  <url><loc>https://mahyarrahimi.com/sina-sarlak.html</loc></url>
+  <url><loc>https://mahyarrahimi.com/kamran-tafti.html</loc></url>
+  <url><loc>https://mahyarrahimi.com/mehdi-yaghmaei.html</loc></url>
+  <url><loc>https://mahyarrahimi.com/mostafa-abedini.html</loc></url>
+  <url><loc>https://mahyarrahimi.com/dj-maryam.html</loc></url>
+  <url><loc>https://mahyarrahimi.com/mahan-bahram-khan.html</loc></url>
 
-  <url><loc>https://mahyarrahimi1.github.io/credits.html</loc></url>
-  <url><loc>https://mahyarrahimi1.github.io/projects.html</loc></url>
-  <url><loc>https://mahyarrahimi1.github.io/roles.html</loc></url>
+  <url><loc>https://mahyarrahimi.com/credits.html</loc></url>
+  <url><loc>https://mahyarrahimi.com/projects.html</loc></url>
+  <url><loc>https://mahyarrahimi.com/roles.html</loc></url>
 
 </urlset>
+```
