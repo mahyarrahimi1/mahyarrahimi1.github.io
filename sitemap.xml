@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://mahyarrahimi.com/</loc></url>
-  <url><loc>https://mahyarrahimi.com/ali-zandvakili.html</loc></url>
-  <url><loc>https://mahyarrahimi.com/rouzbeh-nematollahi.html</loc></url>
-  <url><loc>https://mahyarrahimi.com/helen.html</loc></url>
-  <url><loc>https://mahyarrahimi.com/mansour.html</loc></url>
-  <url><loc>https://mahyarrahimi.com/ragheb.html</loc></url>
-  <url><loc>https://mahyarrahimi.com/reza-yazdani.html</loc></url>
-  <url><loc>https://mahyarrahimi.com/rastaak.html</loc></url>
-  <url><loc>https://mahyarrahimi.com/sina-sarlak.html</loc></url>
-  <url><loc>https://mahyarrahimi.com/kamran-tafti.html</loc></url>
-  <url><loc>https://mahyarrahimi.com/mehdi-yaghmaei.html</loc></url>
-  <url><loc>https://mahyarrahimi.com/mostafa-abedini.html</loc></url>
-  <url><loc>https://mahyarrahimi.com/dj-maryam.html</loc></url>
-  <url><loc>https://mahyarrahimi.com/mahan-bahram-khan.html</loc></url>
-  <url><loc>https://mahyarrahimi.com/credits.html</loc></url>
-  <url><loc>https://mahyarrahimi.com/projects.html</loc></url>
-  <url><loc>https://mahyarrahimi.com/roles.html</loc></url>
+
+<url><loc>https://mahyarrahimi.com/</loc></url>
+
+<url><loc>https://mahyarrahimi.com/ali-zandvakili.html</loc></url>
+<url><loc>https://mahyarrahimi.com/rouzbeh-nematollahi.html</loc></url>
+<url><loc>https://mahyarrahimi.com/helen.html</loc></url>
+<url><loc>https://mahyarrahimi.com/mansour.html</loc></url>
+<url><loc>https://mahyarrahimi.com/ragheb.html</loc></url>
+<url><loc>https://mahyarrahimi.com/reza-yazdani.html</loc></url>
+<url><loc>https://mahyarrahimi.com/rastaak.html</loc></url>
+<url><loc>https://mahyarrahimi.com/sina-sarlak.html</loc></url>
+<url><loc>https://mahyarrahimi.com/kamran-tafti.html</loc></url>
+<url><loc>https://mahyarrahimi.com/mehdi-yaghmaei.html</loc></url>
+<url><loc>https://mahyarrahimi.com/mostafa-abedini.html</loc></url>
+<url><loc>https://mahyarrahimi.com/dj-maryam.html</loc></url>
+<url><loc>https://mahyarrahimi.com/mahan-bahram-khan.html</loc></url>
+<url><loc>https://mahyarrahimi.com/credits.html</loc></url>
+<url><loc>https://mahyarrahimi.com/projects.html</loc></url>
+<url><loc>https://mahyarrahimi.com/roles.html</loc></url>
+<url><loc>https://mahyarrahimi.com/label.html</loc></url>
+
 </urlset>
