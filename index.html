@@ -3,16 +3,17 @@
 
 <head>
   <meta charset="utf-8">
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="icon" type="image/png" href="favicon.png">
   <link rel="apple-touch-icon" href="favicon.png">
 
-  <title>Interviews & Media | مصاحبه‌ها و رسانه‌ها — Mahyar Rahimi</title>
+  <title>مهیار رحیمی | Mahyar Rahimi — Mixing & Mastering Engineer</title>
 
   <meta
     name="description"
-    content="مصاحبه‌ها و حضور رسانه‌ای مهیار رحیمی؛ موزیسین، مهندس میکس و مسترینگ، تهیه‌کننده موسیقی، تنظیم‌کننده و نوازنده."
+    content="مهیار رحیمی (Mahyar Rahimi)، موزیسین، مهندس میکس و مسترینگ، تهیه‌کننده موسیقی، تنظیم‌کننده و نوازنده. نمونه آثار و همکاری‌های حرفه‌ای با هنرمندان ایرانی."
   >
 
   <meta
@@ -25,29 +26,26 @@
     content="Mahyar Rahimi"
   >
 
-  <link
-    rel="canonical"
-    href="https://mahyarrahimi.com/press.html"
-  >
+  <link rel="canonical" href="https://mahyarrahimi.com/">
 
   <meta
     property="og:type"
-    content="website"
+    content="profile"
   >
 
   <meta
     property="og:title"
-    content="Interviews & Media | مصاحبه‌ها و رسانه‌ها — Mahyar Rahimi"
+    content="مهیار رحیمی | Mahyar Rahimi"
   >
 
   <meta
     property="og:description"
-    content="Interviews and media coverage featuring Mahyar Rahimi."
+    content="Mahyar Rahimi — Musician, Mixing & Mastering Engineer, Music Producer and Arranger."
   >
 
   <meta
     property="og:url"
-    content="https://mahyarrahimi.com/press.html"
+    content="https://mahyarrahimi.com/"
   >
 
   <meta
@@ -110,9 +108,9 @@
     }
 
     h1 {
-      font-size: clamp(36px, 7vw, 64px);
-      margin: 0 0 8px;
-      line-height: 1.15;
+      font-size: clamp(36px, 7vw, 72px);
+      margin: 0 0 6px;
+      line-height: 1.1;
     }
 
     .en {
@@ -141,9 +139,18 @@
       border-bottom: 1px solid var(--line);
     }
 
+    section:last-of-type {
+      border-bottom: 0;
+    }
+
     h2 {
       font-size: 28px;
-      margin: 0 0 12px;
+      margin: 0 0 18px;
+    }
+
+    h3 {
+      font-size: 19px;
+      margin: 0 0 8px;
     }
 
     .lead {
@@ -161,21 +168,11 @@
       background: var(--card);
       border: 1px solid var(--line);
       border-radius: 16px;
-      padding: 22px;
-    }
-
-    .card:hover {
-      border-color: #3b4657;
-    }
-
-    .card h3 {
-      font-size: 21px;
-      margin: 0 0 8px;
+      padding: 20px;
     }
 
     .card p {
-      color: var(--muted);
-      margin: 7px 0 16px;
+      margin: 6px 0 0;
     }
 
     .meta {
@@ -183,36 +180,85 @@
       font-size: 14px;
     }
 
-    .button {
+    .badge {
       display: inline-block;
-      margin-top: 8px;
-      padding: 8px 15px;
       border: 1px solid #394252;
-      border-radius: 8px;
+      border-radius: 999px;
+      padding: 5px 10px;
+      margin: 5px 4px 0 0;
+      color: #d8dee8;
+      font-size: 13px;
       background: #10131a;
+    }
+
+    ul {
+      margin: 10px 0 0;
+      padding-right: 22px;
+    }
+
+    li {
+      padding: 3px 0;
+    }
+
+    .priority {
+      border-color: #3b4657;
+    }
+
+    .priority h3 a {
+      color: var(--text);
+    }
+
+    .artist-link {
+      display: inline-block;
+      margin-top: 10px;
       color: var(--accent);
       font-size: 14px;
     }
 
-    .button:hover {
-      background: #171b24;
-      text-decoration: none;
+    .ltr {
+      direction: ltr;
+      text-align: left;
     }
 
-    .back {
-      padding: 35px 0 10px;
-      text-align: center;
+    .english-profile {
+      direction: ltr;
+      text-align: left;
     }
 
-    .back a {
+    .contact {
+      font-size: 17px;
+    }
+
+    .profiles-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 18px;
+    }
+
+    .profile-group {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 20px;
+    }
+
+    .profile-group h3 {
       color: var(--accent);
+      margin-bottom: 10px;
+    }
+
+    .profile-group a {
+      display: block;
+      padding: 5px 0;
+      direction: ltr;
+      text-align: left;
+      overflow-wrap: anywhere;
     }
 
     footer {
       padding: 35px 0;
       color: var(--muted);
       font-size: 14px;
-      text-align: center;
     }
 
     @media (max-width: 600px) {
@@ -224,58 +270,908 @@
         padding: 48px 0 34px;
       }
 
-      h1 {
-        font-size: 38px;
-      }
-
       h2 {
         font-size: 24px;
       }
 
       .card {
-        padding: 18px;
+        padding: 17px;
       }
     }
   </style>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Person",
-        "@id": "https://mahyarrahimi.com/#person",
-        "name": "Mahyar Rahimi",
-        "alternateName": "مهیار رحیمی",
-        "url": "https://mahyarrahimi.com/",
-        "jobTitle": "Mixing & Mastering Engineer"
-      },
-      {
-        "@type": "WebPage",
-        "@id": "https://mahyarrahimi.com/press.html",
-        "url": "https://mahyarrahimi.com/press.html",
-        "name": "Interviews & Media | مصاحبه‌ها و رسانه‌ها — Mahyar Rahimi",
-        "description": "Interviews and media coverage featuring Mahyar Rahimi.",
-        "isPartOf": {
-          "@id": "https://mahyarrahimi.com/#website"
-        },
-        "about": {
-          "@id": "https://mahyarrahimi.com/#person"
-        }
-      },
-      {
-        "@type": "WebSite",
-        "@id": "https://mahyarrahimi.com/#website",
-        "url": "https://mahyarrahimi.com/",
-        "name": "Mahyar Rahimi",
-        "publisher": {
-          "@id": "https://mahyarrahimi.com/#person"
-        }
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://mahyarrahimi.com/#person",
+      "name": "Mahyar Rahimi",
+      "alternateName": "مهیار رحیمی",
+      "url": "https://mahyarrahimi.com/",
+      "jobTitle": "Mixing & Mastering Engineer",
+      "sameAs": [
+        "https://mahyarrahimi.com/",
+        "https://musicbrainz.org/artist/2b3cfc46-2a73-4ee7-94d7-8e617d5e829e",
+        "https://genius.com/artists/Mahyar-rahimi",
+        "https://muso.ai/profile/c60f8385-7025-4132-ae90-3b4038e30047",
+        "https://www.discogs.com/artist/18229791-Mahyar-Rahimi",
+        "https://isni.org/isni/0000000531630299",
+        "https://www.wikidata.org/wiki/Q141322899",
+        "https://www.linkedin.com/in/mahyar-rahimi/",
+        "https://soundcloud.com/mahyarrahimi",
+        "https://www.youtube.com/@mahyarrahimimusic",
+        "https://www.instagram.com/mahyarrahimimusic/",
+        "https://x.com/mahyarrahimi1",
+        "https://www.facebook.com/mahyar.rahimi.music"
+      ],
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ISNI",
+        "value": "0000000531630299"
       }
-    ]
-  }
-  </script>
-
+    },
+    {
+      "@type": "ProfilePage",
+      "@id": "https://mahyarrahimi.com/#profile",
+      "url": "https://mahyarrahimi.com/",
+      "name": "مهیار رحیمی | Mahyar Rahimi — Mixing & Mastering Engineer",
+      "mainEntity": {
+        "@id": "https://mahyarrahimi.com/#person"
+      }
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://mahyarrahimi.com/#featured-artists",
+      "name": "Featured Artists",
+      "numberOfItems": 12,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Person",
+            "name": "علی زندوکیلی",
+            "alternateName": "Ali Zandvakili",
+            "url": "https://mahyarrahimi.com/ali-zandvakili.html"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Person",
+            "name": "روزبه نعمت‌اللهی",
+            "alternateName": "Rouzbeh Nematollahi",
+            "url": "https://mahyarrahimi.com/rouzbeh-nematollahi.html"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "Person",
+            "name": "هلن",
+            "alternateName": "Helen",
+            "url": "https://mahyarrahimi.com/helen.html"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "Person",
+            "name": "منصور",
+            "alternateName": "Mansour",
+            "url": "https://mahyarrahimi.com/mansour.html"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "Person",
+            "name": "راغب",
+            "alternateName": "Ragheb",
+            "url": "https://mahyarrahimi.com/ragheb.html"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@type": "Person",
+            "name": "رضا یزدانی",
+            "alternateName": "Reza Yazdani",
+            "url": "https://mahyarrahimi.com/reza-yazdani.html"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "item": {
+            "@type": "Person",
+            "name": "رستاک",
+            "alternateName": "Rastaak",
+            "url": "https://mahyarrahimi.com/rastaak.html"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "item": {
+            "@type": "Person",
+            "name": "سینا سرلک",
+            "alternateName": "Sina Sarlak",
+            "url": "https://mahyarrahimi.com/sina-sarlak.html"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "item": {
+            "@type": "Person",
+            "name": "کامران تفتی",
+            "alternateName": "Kamran Tafti",
+            "url": "https://mahyarrahimi.com/kamran-tafti.html"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "item": {
+            "@type": "Person",
+            "name": "مهدی یغمایی",
+            "alternateName": "Mehdi Yaghmaei",
+            "url": "https://mahyarrahimi.com/mehdi-yaghmaei.html"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "item": {
+            "@type": "Person",
+            "name": "مصطفی عابدینی",
+            "alternateName": "Mostafa Abedini",
+            "url": "https://mahyarrahimi.com/mostafa-abedini.html"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "item": {
+            "@type": "Person",
+            "name": "دیجی مریم",
+            "alternateName": "DJ Maryam",
+            "url": "https://mahyarrahimi.com/dj-maryam.html"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://mahyarrahimi.com/#selected-works",
+      "name": "Selected Works",
+      "numberOfItems": 44,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "حال نامعلوم",
+            "creator": {
+              "@type": "Person",
+              "name": "Ragheb"
+            },
+            "contributor": {
+              "@id": "https://mahyarrahimi.com/#person"
+            },
+            "creditText": "Mixing & Mastering: Mahyar Rahimi"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "مهتاب",
+            "creator": {
+              "@type": "Person",
+              "name": "Ragheb"
+            },
+            "contributor": {
+              "@id": "https://mahyarrahimi.com/#person"
+            },
+            "creditText": "Mixing & Mastering: Mahyar Rahimi"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "سکوت عاشقانه",
+            "creator": {
+              "@type": "Person",
+              "name": "Ragheb"
+            },
+            "contributor": {
+              "@id": "https://mahyarrahimi.com/#person"
+            },
+            "creditText": "Mixing & Mastering: Mahyar Rahimi"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "روزهای خوب",
+            "creator": {
+              "@type": "Person",
+              "name": "Ragheb"
+            },
+            "contributor": {
+              "@id": "https://mahyarrahimi.com/#person"
+            },
+            "creditText": "Mixing & Mastering: Mahyar Rahimi"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "نقش جهان",
+            "creator": {
+              "@type": "Person",
+              "name": "Reza Yazdani"
+            },
+            "contributor": {
+              "@id": "https://mahyarrahimi.com/#person"
+            },
+            "creditText": "Mixing & Mastering: Mahyar Rahimi"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "قاتل خونسرد",
+            "creator": {
+              "@type": "Person",
+              "name": "Reza Yazdani"
+            },
+            "contributor": {
+              "@id": "https://mahyarrahimi.com/#person"
+            },
+            "creditText": "Mixing & Mastering: Mahyar Rahimi"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "یخ تنهاییتو آب کن",
+            "creator": {
+              "@type": "Person",
+              "name": "Reza Yazdani"
+            },
+            "contributor": {
+              "@id": "https://mahyarrahimi.com/#person"
+            },
+            "creditText": "Mixing & Mastering: Mahyar Rahimi"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "گله اسب",
+            "creator": {
+              "@type": "Person",
+              "name": "Reza Yazdani"
+            },
+            "contributor": {
+              "@id": "https://mahyarrahimi.com/#person"
+            },
+            "creditText": "Mixing & Mastering: Mahyar Rahimi"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "بی‌تفاوتی",
+            "creator": {
+              "@type": "Person",
+              "name": "Ali Zandvakili"
+            },
+            "contributor": {
+              "@id": "https://mahyarrahimi.com/#person"
+            },
+            "creditText": "Mixing & Mastering: Mahyar Rahimi"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "بخواب آروم",
+            "creator": {
+              "@type": "Person",
+              "name": "Ali Zandvakili"
+            },
+            "contributor": {
+              "@id": "https://mahyarrahimi.com/#person"
+            },
+            "creditText": "Mixing & Mastering: Mahyar Rahimi"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "پرتگاه",
+            "creator": {
+              "@type": "Person",
+              "name": "Rouzbeh Nematollahi"
+            },
+            "contributor": {
+              "@id": "https://mahyarrahimi.com/#person"
+            },
+            "creditText": "Mixing & Mastering: Mahyar Rahimi"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "پس اینم از این",
+            "creator": {
+              "@type": "Person",
+              "name": "Rouzbeh Nematollahi"
+            },
+            "contributor": {
+              "@id": "https://mahyarrahimi.com/#person"
+            },
+            "creditText": "Mixing & Mastering: Mahyar Rahimi"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 13,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "خنده هاتو دوست دارم",
+            "creator": {
+              "@type": "Person",
+              "name": "Rouzbeh Nematollahi"
+            },
+            "contributor": {
+              "@id": "https://mahyarrahimi.com/#person"
+            },
+            "creditText": "Mixing & Mastering: Mahyar Rahimi"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 14,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "نگارا",
+            "creator": {
+              "@type": "Person",
+              "name": "Mehdi Yaghmaei"
+            },
+            "contributor": {
+              "@id": "https://mahyarrahimi.com/#person"
+            },
+            "creditText": "Mixing & Mastering: Mahyar Rahimi"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 15,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "دلبر داشتی",
+            "creator": {
+              "@type": "Person",
+              "name": "Mehdi Yaghmaei"
+            },
+            "contributor": {
+              "@id": "https://mahyarrahimi.com/#person"
+            },
+            "creditText": "Mixing & Mastering: Mahyar Rahimi"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 16,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "گلایه",
+            "creator": {
+              "@type": "Person",
+              "name": "Sina Sarlak"
+            },
+            "contributor": {
+              "@id": "https://mahyarrahimi.com/#person"
+            },
+            "creditText": "Mixing & Mastering: Mahyar Rahimi"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 17,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "ماه خجالتی",
+            "creator": {
+              "@type": "Person",
+              "name": "Sina Sarlak"
+            },
+            "contributor": {
+              "@id": "https://mahyarrahimi.com/#person"
+            },
+            "creditText": "Mixing & Mastering: Mahyar Rahimi"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 18,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "جان منی",
+            "creator": {
+              "@type": "Person",
+              "name": "Sina Sarlak"
+            },
+            "contributor": {
+              "@id": "https://mahyarrahimi.com/#person"
+            },
+            "creditText": "Mixing & Mastering: Mahyar Rahimi"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 19,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "عشق محال",
+            "creator": {
+              "@type": "Person",
+              "name": "Sina Sarlak"
+            },
+            "contributor": {
+              "@id": "https://mahyarrahimi.com/#person"
+            },
+            "creditText": "Mixing & Mastering: Mahyar Rahimi"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 20,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "خزر",
+            "creator": {
+              "@type": "Person",
+              "name": "Sina Sarlak"
+            },
+            "contributor": {
+              "@id": "https://mahyarrahimi.com/#person"
+            },
+            "creditText": "Mixing & Mastering: Mahyar Rahimi"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 21,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "زندگی",
+            "creator": {
+              "@type": "Person",
+              "name": "Sina Sarlak"
+            },
+            "contributor": {
+              "@id": "https://mahyarrahimi.com/#person"
+            },
+            "creditText": "Mixing & Mastering: Mahyar Rahimi"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 22,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "صدام بزن",
+            "creator": {
+              "@type": "Person",
+              "name": "Helen"
+            },
+            "contributor": {
+              "@id": "https://mahyarrahimi.com/#person"
+            },
+            "creditText": "Mixing & Mastering: Mahyar Rahimi"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 23,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "حق من نیست",
+            "creator": {
+              "@type": "Person",
+              "name": "Mansour"
+            },
+            "contributor": {
+              "@id": "https://mahyarrahimi.com/#person"
+            },
+            "creditText": "Mixing & Mastering: Mahyar Rahimi"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 24,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "بی مادر",
+            "creator": {
+              "@type": "Person",
+              "name": "Rastaak"
+            },
+            "contributor": {
+              "@id": "https://mahyarrahimi.com/#person"
+            },
+            "creditText": "Mixing & Mastering: Mahyar Rahimi"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 25,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "رفیق",
+            "creator": {
+              "@type": "Person",
+              "name": "Kamran Tafti"
+            },
+            "contributor": {
+              "@id": "https://mahyarrahimi.com/#person"
+            },
+            "creditText": "Mixing & Mastering: Mahyar Rahimi"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 26,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "خوب مُردن",
+            "creator": {
+              "@type": "Person",
+              "name": "Kamran Tafti"
+            },
+            "contributor": {
+              "@id": "https://mahyarrahimi.com/#person"
+            },
+            "creditText": "Mixing & Mastering: Mahyar Rahimi"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 27,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "پرده‌هایی از شب",
+            "creator": {
+              "@type": "Person",
+              "name": "Kamran Tafti"
+            },
+            "contributor": {
+              "@id": "https://mahyarrahimi.com/#person"
+            },
+            "creditText": "Mixing & Mastering: Mahyar Rahimi"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 28,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "اسمت گردنمه (نسخه پیانو)",
+            "creator": {
+              "@type": "Person",
+              "name": "Mostafa Abedini"
+            },
+            "contributor": {
+              "@id": "https://mahyarrahimi.com/#person"
+            },
+            "creditText": "Mixing & Mastering: Mahyar Rahimi"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 29,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "اگر نمانی",
+            "creator": {
+              "@type": "Person",
+              "name": "Mostafa Abedini"
+            },
+            "contributor": {
+              "@id": "https://mahyarrahimi.com/#person"
+            },
+            "creditText": "Mixing & Mastering: Mahyar Rahimi"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 30,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "همه آرزوهام",
+            "creator": {
+              "@type": "Person",
+              "name": "DJ Maryam"
+            },
+            "contributor": {
+              "@id": "https://mahyarrahimi.com/#person"
+            },
+            "creditText": "Mixing & Mastering: Mahyar Rahimi"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 31,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "همه آرزوهام (ریمیکس)",
+            "creator": {
+              "@type": "Person",
+              "name": "DJ Maryam"
+            },
+            "contributor": {
+              "@id": "https://mahyarrahimi.com/#person"
+            },
+            "creditText": "Mixing & Mastering: Mahyar Rahimi"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 32,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "دلبر",
+            "creator": {
+              "@type": "Person",
+              "name": "Mehrdad Asemani"
+            },
+            "contributor": {
+              "@id": "https://mahyarrahimi.com/#person"
+            },
+            "creditText": "Mixing & Mastering: Mahyar Rahimi"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 33,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "چادر",
+            "creator": {
+              "@type": "Person",
+              "name": "Mehrdad Asemani"
+            },
+            "contributor": {
+              "@id": "https://mahyarrahimi.com/#person"
+            },
+            "creditText": "Mixing & Mastering: Mahyar Rahimi"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 34,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "مستی",
+            "creator": {
+              "@type": "Person",
+              "name": "Mehrdad Asemani"
+            },
+            "contributor": {
+              "@id": "https://mahyarrahimi.com/#person"
+            },
+            "creditText": "Mixing & Mastering: Mahyar Rahimi"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 35,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "دلا چونی",
+            "creator": {
+              "@type": "Person",
+              "name": "Mehdi Soltani"
+            },
+            "contributor": {
+              "@id": "https://mahyarrahimi.com/#person"
+            },
+            "creditText": "Mixing & Mastering: Mahyar Rahimi"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 36,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "آی لیلی",
+            "creator": {
+              "@type": "Person",
+              "name": "Fereydoun Asraei"
+            },
+            "contributor": {
+              "@id": "https://mahyarrahimi.com/#person"
+            },
+            "creditText": "Mixing & Mastering: Mahyar Rahimi"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 37,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "نیسان آبی",
+            "creator": {
+              "@type": "Person",
+              "name": "Iman Fallah"
+            },
+            "contributor": {
+              "@id": "https://mahyarrahimi.com/#person"
+            },
+            "creditText": "Mixing & Mastering: Mahyar Rahimi"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 38,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "دل خون",
+            "creator": {
+              "@type": "Person",
+              "name": "Shahab Mozaffari"
+            },
+            "contributor": {
+              "@id": "https://mahyarrahimi.com/#person"
+            },
+            "creditText": "Mixing & Mastering: Mahyar Rahimi"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 39,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "دیوونه",
+            "creator": {
+              "@type": "Person",
+              "name": "Ali Sedighi"
+            },
+            "contributor": {
+              "@id": "https://mahyarrahimi.com/#person"
+            },
+            "creditText": "Mixing & Mastering: Mahyar Rahimi"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 40,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "ترس",
+            "creator": {
+              "@type": "Person",
+              "name": "Mahan Bahram Khan"
+            },
+            "contributor": {
+              "@id": "https://mahyarrahimi.com/#person"
+            },
+            "creditText": "Mixing & Mastering: Mahyar Rahimi"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 41,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "آخر خط",
+            "creator": {
+              "@type": "Person",
+              "name": "Mahan Bahram Khan"
+            },
+            "contributor": {
+              "@id": "https://mahyarrahimi.com/#person"
+            },
+            "creditText": "Mixing & Mastering: Mahyar Rahimi"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 42,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "اشتباه من",
+            "creator": {
+              "@type": "Person",
+              "name": "Mahan Bahram Khan"
+            },
+            "contributor": {
+              "@id": "https://mahyarrahimi.com/#person"
+            },
+            "creditText": "Mixing & Mastering: Mahyar Rahimi"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 43,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "سر درد",
+            "creator": {
+              "@type": "Person",
+              "name": "Mahan Bahram Khan"
+            },
+            "contributor": {
+              "@id": "https://mahyarrahimi.com/#person"
+            },
+            "creditText": "Mixing & Mastering: Mahyar Rahimi"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 44,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "سرد بود",
+            "creator": {
+              "@type": "Person",
+              "name": "Mahan Bahram Khan"
+            },
+            "contributor": {
+              "@id": "https://mahyarrahimi.com/#person"
+            },
+            "creditText": "Mixing & Mastering: Mahyar Rahimi"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://mahyarrahimi.com/#website",
+      "url": "https://mahyarrahimi.com/",
+      "name": "Mahyar Rahimi",
+      "publisher": {
+        "@id": "https://mahyarrahimi.com/#person"
+      }
+    }
+  ]
+}
+</script>
 </head>
 
 <body>
@@ -287,251 +1183,734 @@
     <header class="hero">
 
       <div class="eyebrow">
-        MEDIA & PROFESSIONAL COVERAGE
+        PROFESSIONAL MUSIC PORTFOLIO
       </div>
 
       <h1>
-        مصاحبه‌ها و رسانه‌ها
+        مهیار رحیمی
       </h1>
 
       <div class="en">
-        Interviews &amp; Media
+        Mahyar Rahimi
       </div>
 
       <p class="tagline">
-        Mahyar Rahimi — Interviews, Media &amp; Professional Coverage
+        Musician · Mixing &amp; Mastering Engineer · Music Producer · Arranger · Live Performer · Orchestra Leader
       </p>
 
       <p class="intro">
-        مجموعه‌ای از مصاحبه‌ها و مطالب رسانه‌ای درباره
-        <strong>مهیار رحیمی</strong> و فعالیت‌های حرفه‌ای او
-        در حوزه موسیقی، میکس و مسترینگ، تولید موسیقی و تنظیم.
+        مهیار رحیمی موزیسین و مهندس میکس و مسترینگ ایرانی است که در حوزه موسیقی،
+        تولید و تنظیم موسیقی، اجرای زنده و رهبری ارکستر فعالیت دارد.
+        این وب‌سایت پورتفولیوی حرفه‌ای و فهرست بخشی از آثار و همکاری‌های اوست.
+      </p>
+
+      <p>
+        <a class="artist-link" href="/biography.html">
+          Biography / بیوگرافی
+        </a>
       </p>
 
     </header>
 
-
-    <!-- INTERVIEWS -->
+    <!-- ABOUT -->
 
     <section>
 
       <h2>
-        🎙️ Interviews &amp; Media
-        <br>
-        <span class="meta">مصاحبه‌ها و رسانه‌ها</span>
+        درباره من
       </h2>
 
       <p class="lead">
-        مصاحبه‌ها و مطالب منتشرشده توسط رسانه‌های مستقل موسیقی و هنری.
-        برای مطالعه هر مطلب، به منبع اصلی مراجعه کنید.
+        <strong>مهیار رحیمی</strong> در زمینه میکس و مسترینگ موسیقی،
+        تولید موسیقی، تنظیم، نوازندگی و اجرای زنده فعالیت می‌کند.
+        بخشی از سوابق حرفه‌ای او شامل همکاری با خوانندگان و هنرمندان ایرانی است.
       </p>
 
+      <div>
 
-      <div class="grid">
-
-
-        <!-- MUSIC E FARS -->
-
-        <div class="card">
-
-          <h3>
-            Music E Fars
-          </h3>
-
-          <div class="meta">
-            مصاحبه با مهیار رحیمی
-          </div>
-
-          <p>
-            گفت‌وگویی درباره فعالیت حرفه‌ای مهیار رحیمی
-            در حوزه موسیقی، میکس و مسترینگ و مسیر حرفه‌ای او.
-          </p>
-
-          <a
-            class="button"
-            href="https://musicefars.ir/mahyar-rahimi-2/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            مطالعه مصاحبه →
-          </a>
-
-        </div>
-
-
-        <!-- TIKA MUSIC -->
-
-        <div class="card">
-
-          <h3>
-            Tika Music
-          </h3>
-
-          <div class="meta">
-            مصاحبه درباره Mixing &amp; Mastering
-          </div>
-
-          <p>
-            مصاحبه‌ای درباره میکس و مسترینگ،
-            تجربه حرفه‌ای و فعالیت مهیار رحیمی در صنعت موسیقی.
-          </p>
-
-          <a
-            class="button"
-            href="https://tikaamusic.com/mahyar-rahimi-interview-mixing-mastering/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            مطالعه مصاحبه →
-          </a>
-
-        </div>
-
-
-        <!-- AVAYE FARDA -->
-
-        <div class="card">
-
-          <h3>
-            Avaye Farda
-          </h3>
-
-          <div class="meta">
-            گفت‌وگو با مهیار رحیمی
-          </div>
-
-          <p>
-            مطلب و گفت‌وگویی درباره سوابق و فعالیت‌های
-            حرفه‌ای مهیار رحیمی در حوزه موسیقی.
-          </p>
-
-          <a
-            class="button"
-            href="https://avayefarda.com/84209/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            مطالعه مصاحبه →
-          </a>
-
-        </div>
-
-
-        <!-- AVAYE MOUSIGHI -->
-
-        <div class="card">
-
-          <h3>
-            Avaye Mousighi
-          </h3>
-
-          <div class="meta">
-            مصاحبه با مهیار رحیمی
-          </div>
-
-          <p>
-            گفت‌وگویی درباره سوابق، فعالیت‌ها و تجربه حرفه‌ای
-            مهیار رحیمی در موسیقی.
-          </p>
-
-          <a
-            class="button"
-            href="https://avayemousighi.ir/mahyar-rahimi/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            مطالعه مصاحبه →
-          </a>
-
-        </div>
-
+        <span class="badge">Mixing</span>
+        <span class="badge">Mastering</span>
+        <span class="badge">Music Production</span>
+        <span class="badge">Arrangement</span>
+        <span class="badge">Synthesizer</span>
+        <span class="badge">Live Music</span>
+        <span class="badge">Orchestra Leadership</span>
 
       </div>
 
     </section>
 
-
-    <!-- PROFESSIONAL IDENTITY -->
+    <!-- FEATURED ARTISTS -->
 
     <section>
 
       <h2>
-        Mahyar Rahimi — Professional Identity
+        هنرمندان و خوانندگان منتخب
       </h2>
 
       <p class="lead">
-        برای بررسی اطلاعات حرفه‌ای و اعتبارهای موسیقایی مهیار رحیمی،
-        می‌توانید پروفایل‌های رسمی او را نیز مشاهده کنید.
+        صفحات زیر بخشی از همکاری‌های حرفه‌ای مهیار رحیمی را معرفی می‌کنند.
       </p>
 
       <div class="grid">
 
-        <div class="card">
-
+        <div class="card priority">
           <h3>
-            Music Credits
+            <a href="/ali-zandvakili.html">علی زندوکیلی</a>
           </h3>
-
-          <p>
-            MusicBrainz · Genius · Muso.AI · Discogs
-          </p>
-
-          <a
-            class="button"
-            href="https://musicbrainz.org/artist/2b3cfc46-2a73-4ee7-94d7-8e617d5e829e"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            MusicBrainz →
+          <p class="meta">Ali Zandvakili</p>
+          <p>همکاری در حوزه میکس و مسترینگ</p>
+          <a class="artist-link" href="/ali-zandvakili.html">
+            مشاهده آثار و همکاری‌ها →
           </a>
-
         </div>
 
-
-        <div class="card">
-
+        <div class="card priority">
           <h3>
-            Professional Identity
+            <a href="/rouzbeh-nematollahi.html">روزبه نعمت‌اللهی</a>
           </h3>
-
-          <p>
-            ISNI · Wikidata · LinkedIn
-          </p>
-
-          <a
-            class="button"
-            href="https://isni.org/isni/0000000531630299"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            ISNI →
+          <p class="meta">Rouzbeh Nematollahi</p>
+          <p>همکاری در حوزه میکس و مسترینگ</p>
+          <a class="artist-link" href="/rouzbeh-nematollahi.html">
+            مشاهده آثار و همکاری‌ها →
           </a>
+        </div>
 
+        <div class="card priority">
+          <h3>
+            <a href="/helen.html">هلن</a>
+          </h3>
+          <p class="meta">Helen</p>
+          <p>همکاری در حوزه میکس و مسترینگ</p>
+          <a class="artist-link" href="/helen.html">
+            مشاهده آثار و همکاری‌ها →
+          </a>
+        </div>
+
+        <div class="card priority">
+          <h3>
+            <a href="/mansour.html">منصور</a>
+          </h3>
+          <p class="meta">Mansour</p>
+          <p>همکاری در حوزه میکس و مسترینگ</p>
+          <a class="artist-link" href="/mansour.html">
+            مشاهده آثار و همکاری‌ها →
+          </a>
+        </div>
+
+        <div class="card priority">
+          <h3>
+            <a href="/ragheb.html">راغب</a>
+          </h3>
+          <p class="meta">Ragheb</p>
+          <p>همکاری در حوزه میکس و مسترینگ</p>
+          <a class="artist-link" href="/ragheb.html">
+            مشاهده آثار و همکاری‌ها →
+          </a>
+        </div>
+
+        <div class="card priority">
+          <h3>
+            <a href="/reza-yazdani.html">رضا یزدانی</a>
+          </h3>
+          <p class="meta">Reza Yazdani</p>
+          <p>همکاری در حوزه میکس و مسترینگ</p>
+          <a class="artist-link" href="/reza-yazdani.html">
+            مشاهده آثار و همکاری‌ها →
+          </a>
+        </div>
+
+        <div class="card priority">
+          <h3>
+            <a href="/rastaak.html">رستاک</a>
+          </h3>
+          <p class="meta">Rastaak</p>
+          <p>همکاری در حوزه میکس و مسترینگ</p>
+          <a class="artist-link" href="/rastaak.html">
+            مشاهده آثار و همکاری‌ها →
+          </a>
+        </div>
+
+        <div class="card priority">
+          <h3>
+            <a href="/sina-sarlak.html">سینا سرلک</a>
+          </h3>
+          <p class="meta">Sina Sarlak</p>
+          <p>همکاری در حوزه میکس و مسترینگ</p>
+          <a class="artist-link" href="/sina-sarlak.html">
+            مشاهده آثار و همکاری‌ها →
+          </a>
+        </div>
+
+        <div class="card priority">
+          <h3>
+            <a href="/kamran-tafti.html">کامران تفتی</a>
+          </h3>
+          <p class="meta">Kamran Tafti</p>
+          <p>همکاری در حوزه میکس و مسترینگ</p>
+          <a class="artist-link" href="/kamran-tafti.html">
+            مشاهده آثار و همکاری‌ها →
+          </a>
+        </div>
+
+        <div class="card priority">
+          <h3>
+            <a href="/mehdi-yaghmaei.html">مهدی یغمایی</a>
+          </h3>
+          <p class="meta">Mehdi Yaghmaei</p>
+          <p>همکاری در حوزه میکس و مسترینگ</p>
+          <a class="artist-link" href="/mehdi-yaghmaei.html">
+            مشاهده آثار و همکاری‌ها →
+          </a>
+        </div>
+
+        <div class="card priority">
+          <h3>
+            <a href="/mostafa-abedini.html">مصطفی عابدینی</a>
+          </h3>
+          <p class="meta">Mostafa Abedini</p>
+          <p>همکاری در حوزه میکس و مسترینگ</p>
+          <a class="artist-link" href="/mostafa-abedini.html">
+            مشاهده آثار و همکاری‌ها →
+          </a>
+        </div>
+
+        <div class="card priority">
+          <h3>
+            <a href="/dj-maryam.html">دیجی مریم</a>
+          </h3>
+          <p class="meta">DJ Maryam</p>
+          <p>همکاری در حوزه میکس و مسترینگ</p>
+          <a class="artist-link" href="/dj-maryam.html">
+            مشاهده آثار و همکاری‌ها →
+          </a>
         </div>
 
       </div>
 
     </section>
 
+    <!-- SELECTED CREDITS -->
 
-    <!-- BACK -->
+    <section>
 
-    <div class="back">
+      <h2>
+        بخشی از آثار و سوابق میکس و مسترینگ
+      </h2>
 
-      <a href="https://mahyarrahimi.com/">
-        ← بازگشت به صفحه اصلی مهیار رحیمی
-      </a>
+      <div class="grid">
 
-    </div>
+        <div class="card">
+          <h3>راغب</h3>
+          <ul>
+            <li>
+              <a href="/ragheb.html">
+                آلبوم «حال نامعلوم» — میکس و مسترینگ
+              </a>
+            </li>
+            <li>مهتاب</li>
+            <li>سکوت عاشقانه</li>
+            <li>روزهای خوب</li>
+          </ul>
+        </div>
 
+        <div class="card">
+          <h3>رضا یزدانی</h3>
+          <ul>
+            <li>
+              <a href="/reza-yazdani.html">
+                نقش جهان
+              </a>
+            </li>
+            <li>قاتل خونسرد</li>
+            <li>یخ تنهاییتو آب کن</li>
+            <li>گله اسب</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>علی زندوکیلی</h3>
+          <ul>
+            <li>
+              <a href="/ali-zandvakili.html">
+                بی‌تفاوتی
+              </a>
+            </li>
+            <li>بخواب آروم</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>روزبه نعمت‌اللهی</h3>
+          <ul>
+            <li>
+              <a href="/rouzbeh-nematollahi.html">
+                پرتگاه
+              </a>
+            </li>
+            <li>پس اینم از این</li>
+            <li>خنده هاتو دوست دارم</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>مهدی یغمایی</h3>
+          <ul>
+            <li>
+              <a href="/mehdi-yaghmaei.html">
+                نگارا
+              </a>
+            </li>
+            <li>دلبر داشتی</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>سینا سرلک</h3>
+          <ul>
+            <li>
+              <a href="/sina-sarlak.html">
+                گلایه
+              </a>
+            </li>
+            <li>ماه خجالتی</li>
+            <li>جان منی</li>
+            <li>عشق محال</li>
+            <li>جدایی</li>
+            <li>خزر</li>
+            <li>زندگی</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>هلن</h3>
+          <ul>
+            <li>
+              <a href="/helen.html">
+                صدام بزن
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>منصور</h3>
+          <ul>
+            <li>
+              <a href="/mansour.html">
+                حق من نیست
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>رستاک</h3>
+          <ul>
+            <li>
+              <a href="/rastaak.html">
+                بی مادر
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>کامران تفتی</h3>
+          <ul>
+            <li>
+              <a href="/kamran-tafti.html">
+                رفیق
+              </a>
+            </li>
+            <li>خوب مُردن</li>
+            <li>پرده‌هایی از شب</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>مصطفی عابدینی</h3>
+          <ul>
+            <li>
+              <a href="/mostafa-abedini.html">
+                اسمت گردنمه (نسخه پیانو)
+              </a>
+            </li>
+            <li>اگر نمانی</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>دیجی مریم</h3>
+          <ul>
+            <li>
+              <a href="/dj-maryam.html">
+                همه آرزوهام
+              </a>
+            </li>
+            <li>همه آرزوهام (ریمیکس)</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>دیگر سوابق</h3>
+          <ul>
+            <li>مهرداد آسمانی — دلبر</li>
+            <li>مهرداد آسمانی — چادر</li>
+            <li>مهرداد آسمانی — مستی</li>
+            <li>مهدی سلطانی — دلا چونی</li>
+            <li>فریدون آسرایی — آی لیلی</li>
+            <li>ایمان فلاح — نیسان آبی</li>
+            <li>شهاب مظفری — دل خون</li>
+            <li>علی صدیقی — دیوونه</li>
+            <li>ماهان بهرام‌خان — ترس</li>
+            <li>ماهان بهرام‌خان — آخر خط</li>
+            <li>ماهان بهرام‌خان — اشتباه من</li>
+            <li>ماهان بهرام‌خان — سر درد</li>
+            <li>ماهان بهرام‌خان — سرد بود</li>
+          </ul>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- PROFESSIONAL CREDITS -->
+
+    <section>
+
+      <h2>
+        اعتبارهای حرفه‌ای مستند
+      </h2>
+
+      <p class="lead">
+        بخشی از اعتبارهای حرفه‌ای مهیار رحیمی که در منابع و پلتفرم‌های
+        مستقل موسیقی قابل بررسی و استناد هستند.
+      </p>
+
+      <div class="grid">
+
+        <div class="card priority">
+
+          <h3>
+            <a href="/credits.html">
+              Professional Credits
+            </a>
+          </h3>
+
+          <p class="meta">
+            Mixing · Mastering · Music Production
+          </p>
+
+          <p>
+            مشاهده مجموعه‌ای از اعتبارهای حرفه‌ای مستند،
+            همراه با لینک به منابع خارجی قابل بررسی.
+          </p>
+
+          <a class="artist-link" href="/credits.html">
+            مشاهده اعتبارهای حرفه‌ای →
+          </a>
+
+        </div>
+
+        <div class="card">
+
+          <h3>
+            Verified External Credits
+          </h3>
+
+          <p class="meta">
+            Independent Sources
+          </p>
+
+          <p>
+            اعتبارهای ثبت‌شده در منابع خارجی مانند
+            Shazam، Qobuz، Apple Music، صفحات هنرمندان
+            و آژانس‌های موسیقی.
+          </p>
+
+          <a class="artist-link" href="/credits.html">
+            View Documented Credits →
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ALL PROJECTS -->
+
+    <section>
+
+      <h2>
+        فهرست کامل آثار و همکاری‌ها
+      </h2>
+
+      <p class="lead">
+        برای مشاهده فهرست کامل پروژه‌ها و همکاری‌های حرفه‌ای،
+        به صفحه اختصاصی آثار مراجعه کنید.
+      </p>
+
+      <div class="grid">
+
+        <div class="card">
+
+          <h3>
+            <a href="/projects.html">
+              آثار و سوابق میکس و مسترینگ
+            </a>
+          </h3>
+
+          <p class="meta">
+            فهرست آثار و همکاری‌ها
+          </p>
+
+        </div>
+
+        <div class="card">
+
+          <h3>
+            <a href="/roles.html">
+              تنظیم، اجرا و رهبری ارکستر
+            </a>
+          </h3>
+
+          <p class="meta">
+            تنظیم، اجرا و رهبری ارکستر
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- MUSIC PRODUCTION -->
+
+    <section>
+
+      <h2>
+        تنظیم و تولید موسیقی
+      </h2>
+
+      <div class="grid">
+
+        <div class="card">
+
+          <h3>
+            تنظیم موسیقی
+          </h3>
+
+          <p class="meta">
+            تنظیم و تولید قطعات موسیقی
+          </p>
+
+        </div>
+
+        <div class="card">
+
+          <h3>
+            میکس و مسترینگ
+          </h3>
+
+          <p class="meta">
+            Mixing &amp; Mastering
+          </p>
+
+        </div>
+
+        <div class="card">
+
+          <h3>
+            Music Production
+          </h3>
+
+          <p class="meta">
+            تولید و توسعه آثار موسیقی
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- LIVE PERFORMANCE -->
+
+    <section>
+
+      <h2>
+        اجرای زنده و نوازندگی
+      </h2>
+
+      <div class="grid">
+
+        <div class="card">
+
+          <h3>
+            اجرای زنده
+          </h3>
+
+          <p class="meta">
+            Live Performance
+          </p>
+
+        </div>
+
+        <div class="card">
+
+          <h3>
+            نوازندگی
+          </h3>
+
+          <p class="meta">
+            Synthesizer Performance
+          </p>
+
+        </div>
+
+        <div class="card">
+
+          <h3>
+            رهبری ارکستر
+          </h3>
+
+          <p class="meta">
+            Orchestra Leadership
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ENGLISH PROFILE -->
+
+    <section>
+
+      <h2>
+        English Profile
+      </h2>
+
+      <div class="card english-profile">
+
+        <p>
+          <strong>Mahyar Rahimi</strong> is an Iranian musician,
+          mixing and mastering engineer, music producer, arranger,
+          live performer and orchestra leader.
+        </p>
+
+        <p>
+          His professional portfolio includes music production,
+          mixing, mastering, arrangement, live performance and
+          collaborations with Iranian singers and artists.
+        </p>
+
+        <p>
+          Selected credits include Ragheb, Reza Yazdani,
+          Sina Sarlak, Ali Zandvakili, Mehdi Yaghmaei,
+          Rouzbeh Nematollahi, Helen, Mansour, Rastaak,
+          Kamran Tafti, Mostafa Abedini and DJ Maryam.
+        </p>
+
+      </div>
+
+    </section>
+
+    <!-- OFFICIAL PROFESSIONAL PROFILES -->
+
+    <section>
+
+      <h2>
+        Mahyar Rahimi — Official Professional Profiles
+      </h2>
+
+      <p class="lead">
+        لینک‌های رسمی و حرفه‌ای مهیار رحیمی برای شناسایی، اعتبارسنجی و بررسی سوابق موسیقی.
+      </p>
+
+      <div class="profiles-grid">
+
+        <div class="profile-group">
+          <h3>🌐 Official</h3>
+          <a href="https://mahyarrahimi.com/" rel="me">Website — mahyarrahimi.com</a>
+        </div>
+
+        <div class="profile-group">
+          <h3>🎧 Music Credits &amp; Professional Profiles</h3>
+          <a href="https://musicbrainz.org/artist/2b3cfc46-2a73-4ee7-94d7-8e617d5e829e" rel="me noopener" target="_blank">MusicBrainz</a>
+          <a href="https://genius.com/artists/Mahyar-rahimi" rel="me noopener" target="_blank">Genius</a>
+          <a href="https://muso.ai/profile/c60f8385-7025-4132-ae90-3b4038e30047" rel="me noopener" target="_blank">Muso.AI</a>
+          <a href="https://www.discogs.com/artist/18229791-Mahyar-Rahimi" rel="me noopener" target="_blank">Discogs</a>
+        </div>
+
+        <div class="profile-group">
+          <h3>🆔 Professional Identity</h3>
+          <a href="https://isni.org/isni/0000000531630299" rel="me noopener" target="_blank">ISNI</a>
+          <a href="https://www.wikidata.org/wiki/Q141322899" rel="me noopener" target="_blank">Wikidata</a>
+          <a href="https://www.linkedin.com/in/mahyar-rahimi/" rel="me noopener" target="_blank">LinkedIn</a>
+        </div>
+
+        <div class="profile-group">
+          <h3>🎵 Music &amp; Social</h3>
+          <a href="https://soundcloud.com/mahyarrahimi" rel="me noopener" target="_blank">SoundCloud</a>
+          <a href="https://www.youtube.com/@mahyarrahimimusic" rel="me noopener" target="_blank">YouTube</a>
+          <a href="https://www.instagram.com/mahyarrahimimusic/" rel="me noopener" target="_blank">Instagram</a>
+          <a href="https://x.com/mahyarrahimi1" rel="me noopener" target="_blank">X</a>
+          <a href="https://www.facebook.com/mahyar.rahimi.music" rel="me noopener" target="_blank">Facebook</a>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- CONTACT -->
+
+    <section>
+
+      <h2>
+        تماس و حضور آنلاین
+      </h2>
+
+      <div class="card contact">
+
+        <p>
+          Instagram:
+          <a
+            href="https://www.instagram.com/mahyarrahimimusic"
+            rel="me noopener"
+            target="_blank"
+          >
+            @mahyarrahimimusic
+          </a>
+        </p>
+
+      </div>
+
+    </section>
 
     <footer>
 
-      © Mahyar Rahimi — Official Website
+      <p>
+        © Mahyar Rahimi · Professional Music Portfolio
+      </p>
+
+      <p>
+        <a
+          href="https://www.instagram.com/mahyarrahimimusic"
+          rel="me noopener"
+          target="_blank"
+        >
+          Instagram @mahyarrahimimusic
+        </a>
+      </p>
 
     </footer>
 
   </div>
 
 </body>
+
 </html>
